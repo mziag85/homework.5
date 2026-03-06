@@ -1,0 +1,29 @@
+*{
+background-color: black;
+
+}
+img{
+    border: 5px solid white;
+    display: block;
+    margin: 0 auto;
+    
+
+}
+.div{
+    width: 50px; margin-left: 25px;
+    
+}
+
+h1{
+     text-transform: uppercase;
+    }
+   
+
+.text{
+    
+    color: white;
+    text-align: center;
+}
+
+   
+

@@ -1,0 +1,124 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+background-color: #0D192C;
+text-align: left ;
+}
+
+.card{
+    background-color: #15263F;
+    width: 350px;
+    border-radius:15px ;
+    padding: 24px;
+    margin: 0 auto;
+
+}
+.card__foto{
+border-radius:8px ;
+display: block;
+margin-bottom: 24px;
+
+
+}
+
+.card__title{
+    font-family: "Outfit", sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    color: #FFFFFF ;
+    line-height: 100%;
+    letter-spacing: 1px;
+    margin-bottom: 16px;
+}
+
+.card__info{
+    font-family: "Outfit", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: #8BACD9 ;
+    line-height: 26px;
+    letter-spacing:1 px;
+    margin-bottom: 24px;
+}
+
+.box1{
+    display: flex;
+}
+
+.box1__arrow{
+width: 11px ;
+margin-right: 6.8px ;
+margin-bottom: 24px;
+
+}
+.box1__text1
+{
+    font-family: "Outfit", sans-serif;
+    font-size: 18px;
+    font-weight: 600 ;
+    color: #00FFF8 ;
+    line-height: 16px;
+    letter-spacing: 1px;
+    margin-bottom: 24px;
+}
+.box1__clock{
+    width: 16px; 
+    margin-right: 7.7px ;
+    margin-left: 80px ;
+    margin-bottom: 24px;
+
+}
+.box1__text2{
+    font-family: "Outfit", sans-serif;
+    font-size: 16px;
+    font-weight: 400 ;
+    color: #8BACD9 ;
+    line-height: 100%;
+    letter-spacing: 1px;
+    margin-bottom: 24px;
+}
+hr{
+    background-color: #2E405A;
+    width: 302px;
+    height: 1px;
+    border: none;
+    margin-bottom: 16px ;
+
+}
+
+.box2{
+display: flex;
+align-items: center;
+margin-bottom: 32px;
+
+}
+.box2__oval{
+   width: 33px;
+   height: 33px;
+   border: 1px solid white;
+   border-radius: 100px;
+   margin-right: 15px;
+}
+.box2__text1{
+   font-family: "Outfit", sans-serif;
+   font-size: 16px;
+   font-weight: 400;
+   color: #8BACD9 ;
+   line-height: 100%;
+   letter-spacing: 1px;
+   margin-right: 10px;
+
+}
+
+.box2__text2{
+   font-family: "Outfit", sans-serif;
+   font-size: 16px;
+   font-weight: 400;
+   color: #FFFFFF ;
+   line-height: 100%;
+   letter-spacing: 1px;
+
+}

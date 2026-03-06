@@ -1,0 +1,40 @@
+#green{
+color:green;
+}
+#yellow{
+color:yellow;
+}
+
+.color-title{
+font-weight: normal;
+}
+img{
+    width:200px ;
+    height: 200px; 
+}
+*{
+    background-color:  #e4bb8a;
+}
+
+#red{
+
+    background-color: white;
+    width: 100px;
+    color: red;
+}
+#blue{
+
+    background-color: white;
+    width: 100px;
+    color:blue;
+}
+#orange{
+
+    background-color: white;
+    width: 100px;
+    color:orange; 
+}
+
+img[alt="yellow"]{
+    border: 2px dashed black;
+}

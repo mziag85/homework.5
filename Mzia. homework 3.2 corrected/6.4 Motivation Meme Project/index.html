@@ -1,0 +1,40 @@
+<!-- შექმენით მოტივაციური პოსტის საიტი. 
+ დიზაინი შეგიძლიათ თქვენი გემოვნებით გააფორმოთ (ინსპირაციისთვის შეხედეთ ნიმუშის ფოტოს), 
+ თუმცა გვერდს აუცილებლად უნდა ჰქონდეს შემდეგი მახასიათებლები:
+
+1 მთავარი სათაურისთვის (h1) გამოიყენეთ Regular Libre Baskerville ფონტი Google Fonts-იდან: Libre Baskerville.
+  ttps://fonts.google.com/specimen/Libre+Baskervilleh -  შეგიძლიათ გამოტოვოთ ეს ნაწილი. ლექციაზე ვისწავლით. 
+2 გვერდზე ტექსტის ფერი უნდა იყოს თეთრი, ხოლო გვერდის ფონი — შავი.
+
+3 დაამატეთ თქვენი ფოტო assets/images საქაღალდეში. ფოტოს უნდა ჰქონდეს 5px-იანი თეთრი ჩარჩო (border).
+
+4 ტექსტი უნდა იყოს ცენტრში განლაგებული (center aligned).
+
+5 შექმენით div კონტეინერი, რომელიც მოიცავს h1, p და img ელემენტებს. დაარეგულირეთ დაშორებები (margins) ისე, რომ ფოტო და ტექსტი გვერდის ცენტრში მოხვდეს.
+
+მინიშნება: div-ს ჰორიზონტალურად გააცენტრებთ, თუ მისცემთ width: 50% და margin-left: 25%.
+
+მინიშნება: ფოტოს მიეცით width: 100%, რათა მან სრულად შეავსოს div კონტეინერი.
+
+6 წაიკითხეთ text-transform თვისების შესახებ MDN-ის დოკუმენტაციაში და გამოიყენეთ ის, რათა h1 სათაური სრულად დიდი ასოებით (uppercase) დაწეროთ: MDN text-transform.
+https://developer.mozilla.org/en-US/docs/Web/CSS/text-transform
+ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>დეინერისი</title>
+  <link rel="stylesheet" href="./style.css">
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+<body>
+  <div>
+  <img class="img" src="./assets/images/daenerys.jpeg" alt="დეინერისის ფოტო">
+  <h1 class="text">THAT SPECIAL MOMENT</h1>
+  <p class="text">When you find a perfect avocado at the supermarket</p>
+</div>
+</body>
+</html>
+
