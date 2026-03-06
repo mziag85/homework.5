@@ -1,0 +1,129 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;}
+
+body{background-color: #D6E1FF;
+}
+.card{
+    width:450px;
+    height: 697px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    margin: auto;
+    
+}
+.foto{
+margin-bottom: 45px;
+}
+h1{
+font-family: "Red Hat Display", sans-serif;
+font-weight: 900;
+font-size: 28px;
+word-spacing: 1px;
+text-align: center;
+color: #1F2E55;
+margin-bottom: 17px;
+}
+.card__text{
+font-family: "Red Hat Display", sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+word-spacing: 1px;
+letter-spacing: 0px;
+color: #717FA6;
+text-align: center;
+margin-left: 48px;
+margin-right: 48px;
+margin-bottom:20px;
+}
+.greybox{
+width: 354px;
+height: 98px;
+border-radius: 11px;
+background-color: #F7F9FF;
+margin: auto;
+margin-bottom:32px;
+position: relative;
+
+}
+.music{
+    width: 48px;
+    height: 48px;
+    margin-top: 25px;
+    margin-left: 24px;
+}
+.ann{
+font-family: "Red Hat Display", sans-serif;
+font-weight: 900;
+font-size: 16px;
+line-height: 100%;
+word-spacing: 1px;
+letter-spacing: 0px;
+color: #1F2E55;
+display: block;
+margin-left: 20px;
+margin-bottom: 6px;
+position: absolute;
+top:30%;
+left:20%;
+}
+.price{
+font-family: "Red Hat Display", sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 100%;
+word-spacing: 1px;
+letter-spacing: 0px;
+color: #717FA6;
+display: block;
+margin-left: 20px;
+position: absolute;
+top:55%;
+left:20%;
+}
+.change{
+font-family: "Red Hat Display", sans-serif;
+font-weight: 700;
+font-size: 14px;
+line-height: 100%;
+word-spacing: 1px;
+letter-spacing: 0px;
+color:#382AE1;
+text-decoration: underline;
+position: absolute;
+top: 40%;
+left: 80%;
+}
+.bluebox{
+width: 354px;
+height: 50px;
+background-color: #382AE1;
+border-radius: 11px;
+margin: auto;
+position: relative;
+margin-bottom: 32px;
+}
+
+.bluebox>p{
+font-family: "Red Hat Display", sans-serif;
+font-weight: 900;
+font-size: 15px;
+word-spacing: 1px;
+color: #FFFFFF;
+text-align: center;
+position: absolute;
+top: 50%;
+left:50%;
+transform: translate(-50%, -50%);
+}
+
+.cancel{
+font-family: "Red Hat Display", sans-serif;
+font-weight: 900;
+font-size: 15px;
+word-spacing: 1px;
+color:#717FA6;
+text-align: center;
+margin-bottom: 48px;
+}
